@@ -83,3 +83,17 @@ nav ul {
   display: flex;
   align-items:flex-start
 }
+
+@media (max-width:960px){
+  .hero{
+    flex-direction: column-reverse;
+    margin-top: 30px;
+  }
+  .hero-content,p,button{
+    align-items: center;
+    text-align: center;
+  }
+  .brand-icons{
+    justify-content: center;
+  }
+}
